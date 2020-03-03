@@ -1,0 +1,15 @@
+1. instal python dengan cara mendownload di https://www.python.org/downloads/windows/ 
+ 	pilih versi windows x64
+	lalu instal
+	my computer klik kanan pilih propertis
+	lalu ystem Properties / Advanced tab, click Environment Variables to open User Variables and System Variables
+	buat System Variable named Variable name: PYTHON_HOME and Variable value: c:\Python27
+	temukan variabel path lalu klik edit
+	lalu tambahkan variable baru ;%PYTHON_HOME%\;%PYTHON_HOME%\Scripts\
+	simpan
+2.download vs code di https://code.visualstudio.com/
+ 	lalu install ==> tambahkan ekstension python
+3. menginstal pip untuk windows
+	download get-pip.py lalu instal
+
+tutorial didapat dari https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
