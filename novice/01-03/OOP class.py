@@ -5,5 +5,5 @@ class person:
 P= person()
 P.say_hi()
 
-#the ini methodes
+
 
