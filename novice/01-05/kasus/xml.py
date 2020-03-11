@@ -3,7 +3,7 @@ import xml.dom.minidom as minidom
 def main():
     # gunakan fungsi parse() untuk me-load xml ke memori 
     # dan melakukan parsing
-    doc = minidom.parse("biodata.xml")
+    doc = minidom.parse("F:\\Praxis-academy\\novice\\01-05\\kasus\\biodata.xml")
 
     # Cetak isi doc dan tag pertamanya
     print (doc.nodeName)

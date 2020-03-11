@@ -5,7 +5,9 @@ a = stat.mean(data)
 b = stat.median(data) 
 def test_stat():
     assert a == 58.6, "should be 58.6"
-    assert b == 55, "should be 57.5"
+def test_med():
+    assert b == 57.5, "should be 57.5"
 if __name__ == "__main__":
     test_stat()
-    print("evrything passed")
+    test_med()
+    print("everything passed")
