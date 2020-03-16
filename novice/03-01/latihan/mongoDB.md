@@ -16,8 +16,8 @@ setelah di download lalu install : https://medium.com/@LondonAppBrewery/how-to-d
 
 # membuat database
 
-1. Silahkan ketik perintah use tokobuku untuk membuat dan menggunakan database tokobuku.
-2. lalu untuk mengecek tuliskan db tokobuku
+1. Silahkan ketik perintah ```use tokobuku``` untuk membuat dan menggunakan database tokobuku.
+2. lalu untuk mengecek tuliskan ```db tokobuku```
 3. untuk memasukkan dengan code:
 
 
@@ -59,7 +59,7 @@ db.collection.insertMany(
 ```
 
 menampilkan isi data
-db.<koleksi>.find() 
+```db.<koleksi>.find()``` 
 
 
 ```python
@@ -72,7 +72,7 @@ db.buku.find({ harga: 40000 })
 ```
 
 mengecek jumlah data
-db.<koleksi>.count()
+```db.<koleksi>.count()```
 
 
 ```python
@@ -80,7 +80,7 @@ db.buku.count()
 ```
 
 mengubah data
-db.<koleksi>.update(<query>, <data baru>)
+```db.<koleksi>.update(<query>, <data baru>)```
 
 
 ```python
@@ -97,7 +97,7 @@ db.buku.update(
 ```
 
 menghapus data
-db.<koleksi>.remove(<query>)
+```db.<koleksi>.remove(<query>)```
 
 
 ```python
@@ -105,10 +105,10 @@ db.buku.remove(judul:"Buku Gambar")
 ```
 
 menghapus koleksi
-db.<koleksi>.drop();
+```db.<koleksi>.drop();```
     
 menghapus database
-db.dropDatabase();
+```db.dropDatabase();```
 
 # keluar dari mongoDB
 
