@@ -1,11 +1,18 @@
-import mysql.connector as mariaDB
+import mysql.connector
 
-mariadb_connection = mariaDB.connect(user = 'root',
+mariadb_connection = mysql.connector.connect(
+host="localhost",
+user = "root",
 password = "1untuksemua",
 database="toko")
 cursor = mariadb_connection.cursor()
 
-if mariadb_connection.is_connected:
-    print("mariadb sudah connect")
+cursor.execute("SELECT * FROM satuan")
 
-#cursor.execute("SELECT Pembeli, banyak, alamat * FROM satuan WHERE Pembeli= %s"(3,))
+my_result = cursor.fetchall()
+
+for x in my_result:
+    print(x)
+
+#if mariadb_connection.is_connected:
+ #   print("mariadb sudah connect")
