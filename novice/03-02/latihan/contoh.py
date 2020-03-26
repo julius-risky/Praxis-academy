@@ -9,7 +9,6 @@ def indeks():
 @app.route('/login')
 def login():
     return 'login'
-
 @app.route('/hello/<name>')
 def hello(name):
     return f'hello,{name}!'    
