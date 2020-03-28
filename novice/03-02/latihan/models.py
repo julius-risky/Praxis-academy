@@ -4,3 +4,5 @@ class HelloModel:
     
     def gettext(self):
         return self.text
+
+        
